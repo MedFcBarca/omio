@@ -1,0 +1,30 @@
+Bonjour TICTAC TRIP
+J'espère que tout va bien de votre côté !
+
+Je tiens à m'excuser pour le retard dans le démarrage du projet. En effet, j'ai commencé ce dimanche (03/07/2023), mais cela a été de ma faute, car je n'avais malheureusement pas vérifié mes courriers indésirables à temps.
+
+Pour lancer le projet, la procédure est simple : il suffit d'exécuter les commandes npm install puis npm run start.
+
+En ce qui concerne le temps de réalisation, je dois reconnaître que le projet a pris une demi-journée( pas complet), et cela est entièrement de ma faute.
+
+Difficulté : la 3éme API : https://api.comparatrip.eu/cities/popular/from/paris/5 (popular/from/ UNIQUENAME/5) : recherche les 5 villes les plus populaires au départ d’une ville donnée (ex: paris)
+
+BAT BAT : ZONE : PROJETS
+
+Choix technique : 
+Choisir React et TypeScript comme choix technique est une décision solide pour le développement de mon projet. 
+
+React : 
+
+Composants réutilisables : React favorise une approche basée sur les composants, ce qui permet de créer des éléments d'interface réutilisables et modulaires.
+Virtual DOM : React utilise un Virtual DOM pour améliorer les performances en minimisant les manipulations directes du DOM.
+Large communauté : Avec une large base d'utilisateurs et une communauté active, il existe de nombreuses ressources, bibliothèques tierces et support pour React.
+
+TypeScript :
+
+Typage statique : Le typage fort permet de détecter les erreurs à la compilation plutôt qu'à l'exécution, ce qui améliore la fiabilité du code.
+Meilleure gestion des grands projets : TypeScript facilite la gestion de grands projets grâce à une meilleure compréhension du code et à une meilleure organisation des modules.
+Intégration avec React : TypeScript est compatible avec React et de nombreux développeurs trouvent qu'il facilite le développement en équipe grâce à l'auto-documentation du code.
+Développement à long terme : Le choix de React et TypeScript peut également assurer un développement à long terme pour votre projet. Ces technologies sont bien établies et continuent de bénéficier d'un soutien et d'une amélioration constants de la part de leurs communautés respectives.
+
+Popularité et demande sur le marché : React et TypeScript sont très demandés sur le marché du développement web. Opter pour ces technologies peut élargir votre bassin de développeurs potentiels pour le projet.

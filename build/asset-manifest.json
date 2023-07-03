@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/tictac_trip_omio/static/css/main.add48964.css",
+    "main.js": "/tictac_trip_omio/static/js/main.b06a2279.js",
+    "static/js/787.99e4c7d2.chunk.js": "/tictac_trip_omio/static/js/787.99e4c7d2.chunk.js",
+    "static/media/header-background.jpg": "/tictac_trip_omio/static/media/header-background.b4819dd245714f97f498.jpg",
+    "static/media/details-2-background.jpg": "/tictac_trip_omio/static/media/details-2-background.5f31008228da24ab19b8.jpg",
+    "static/media/project-2.jpg": "/tictac_trip_omio/static/media/project-2.294df75c3be470f98e21.jpg",
+    "static/media/project-5.jpg": "/tictac_trip_omio/static/media/project-5.f9bc0a4c7483490e2f4d.jpg",
+    "static/media/project-3.jpg": "/tictac_trip_omio/static/media/project-3.3681bd4bf043f1afd321.jpg",
+    "static/media/project-6.jpg": "/tictac_trip_omio/static/media/project-6.a007d9fad1654bea407c.jpg",
+    "static/media/details-1-background.jpg": "/tictac_trip_omio/static/media/details-1-background.94b882b038ad233e1f4c.jpg",
+    "static/media/project-7.jpg": "/tictac_trip_omio/static/media/project-7.bad6334b6ec149af2bc8.jpg",
+    "static/media/project-1.jpg": "/tictac_trip_omio/static/media/project-1.f453291f7d2c2d83a930.jpg",
+    "static/media/project-4.jpg": "/tictac_trip_omio/static/media/project-4.fbf19bf7d1d2bd7ab1dd.jpg",
+    "static/media/project-8.jpg": "/tictac_trip_omio/static/media/project-8.c604499e3e9e2378ff95.jpg",
+    "static/media/intro-office.jpg": "/tictac_trip_omio/static/media/intro-office.152f555b8299e0eeff4d.jpg",
+    "static/media/services-3.jpg": "/tictac_trip_omio/static/media/services-3.67e42a99ecaa095d3e44.jpg",
+    "static/media/services-2.jpg": "/tictac_trip_omio/static/media/services-2.73eec0343ccb98dcb2b1.jpg",
+    "static/media/services-1.jpg": "/tictac_trip_omio/static/media/services-1.8fc5511ddca1dffd941b.jpg",
+    "static/media/testimonial-1.jpg": "/tictac_trip_omio/static/media/testimonial-1.5807494650ce0969bac9.jpg",
+    "static/media/testimonial-5.jpg": "/tictac_trip_omio/static/media/testimonial-5.a40ab3f8df0f3c5febab.jpg",
+    "static/media/testimonial-2.jpg": "/tictac_trip_omio/static/media/testimonial-2.72bf4e487323639d48bd.jpg",
+    "static/media/testimonial-3.jpg": "/tictac_trip_omio/static/media/testimonial-3.9f2c974da51cf7b92afa.jpg",
+    "static/media/testimonial-6.jpg": "/tictac_trip_omio/static/media/testimonial-6.eb86adf57865b34582b2.jpg",
+    "static/media/testimonial-4.jpg": "/tictac_trip_omio/static/media/testimonial-4.3595ee1ae4c5d581f5f1.jpg",
+    "index.html": "/tictac_trip_omio/index.html",
+    "static/media/hexagon-green.svg": "/tictac_trip_omio/static/media/hexagon-green.20a193df7550ccdd0993.svg",
+    "static/media/hexagon-white.svg": "/tictac_trip_omio/static/media/hexagon-white.3c2a9cdd0e138d7b5437.svg",
+    "static/media/style.css.map": "/tictac_trip_omio/static/media/style.css.31d6cfe0d16ae931b73c.map",
+    "main.add48964.css.map": "/tictac_trip_omio/static/css/main.add48964.css.map",
+    "main.b06a2279.js.map": "/tictac_trip_omio/static/js/main.b06a2279.js.map",
+    "787.99e4c7d2.chunk.js.map": "/tictac_trip_omio/static/js/787.99e4c7d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.add48964.css",
+    "static/js/main.b06a2279.js"
+  ]
+}
