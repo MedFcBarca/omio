@@ -10,6 +10,7 @@ En ce qui concerne le temps de réalisation, je dois reconnaître que le projet 
 Difficulté : la 3éme API : https://api.comparatrip.eu/cities/popular/from/paris/5 (popular/from/ UNIQUENAME/5) : recherche les 5 villes les plus populaires au départ d’une ville donnée (ex: paris)
 
 BAT BAT : ZONE : PROJETS
+Pour le deploiment : npm run build --> npm install -g serve -->serve -s build  --> npm run deploy  -->http://10.188.42.192:3000/
 
 Choix technique : 
 Choisir React et TypeScript comme choix technique est une décision solide pour le développement de mon projet. 
