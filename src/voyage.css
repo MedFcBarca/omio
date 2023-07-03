@@ -1,0 +1,398 @@
+.DropDownContainer {
+    margin-left: 1rem;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.DropDownContainer-Label {
+    font-size: 0.8rem;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.passengerNumberDisplay {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.OpenOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.CloseOptions {
+    visibility: hidden;
+}
+
+#PassengerOption {
+    position: absolute;
+    width: 15rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset, rgba(19, 41, 104, 0.2) 0px 16px 16px 0px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.passengerNumberDisplay {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.PassengerOptionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    margin-bottom: 1rem;
+}
+
+.PassengerOptionContainer .underline {
+    grid-column-start: span 2;
+    height: 0.1rem;
+    border-radius: 1rem;
+    background-color: lightgrey;
+    align-self: flex-end;
+}
+
+#TripOption {
+    width: 30vw;
+    height: 5rem;
+    margin-top: 1.5rem;
+    position: absolute;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset, rgba(19, 41, 104, 0.2) 0px 16px 16px 0px;
+    background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+    #TripOption {
+        width: 18vw;
+        margin-top: 0;
+    }
+}
+
+button {
+    border-radius: 10rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgb(94, 144, 204);
+    border: 1px solid rgb(94, 144, 204);
+}
+
+.SubmitButton {
+    width: 75vw;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #fa6b6b;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.SubmitButton:hover {
+    filter: brightness(150%);
+}
+
+@media screen and (min-width: 768px) {
+    .SubmitButton {
+        width: 10.5vw;
+        margin: 0 0.2rem;
+    }
+}
+
+.SearchDeparture,
+.SearchDestination {
+    display: flex;
+    background-color: #f1f2f6;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 75vw;
+    margin-top: 0.5rem;
+}
+
+.SearchDeparture .Circle,
+.SearchDestination .Circle {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50rem;
+    border: 3px solid #a1a9c3;
+    align-self: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.SearchDeparture .fa-location-dot,
+.SearchDestination .fa-location-dot {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: #a1a9c3;
+    align-self: center;
+}
+
+.SearchDeparture .departureInput,
+.SearchDeparture .destinationInput,
+.SearchDestination .departureInput,
+.SearchDestination .destinationInput {
+    width: 70vw;
+    background-color: #f1f2f6;
+    border: none;
+    border-radius: 0.5rem;
+    color: #132968;
+}
+
+@media screen and (min-width: 768px) {
+
+    .SearchDeparture,
+    .SearchDestination {
+        width: 23vw;
+        margin: 0 0.2rem;
+    }
+
+    .SearchDeparture .Circle,
+    .SearchDestination .Circle {
+        height: 0.5vw;
+        width: 2vw;
+        border: 5px solid #a1a9c3;
+    }
+}
+
+.DateContainer {
+    height: 2.5rem;
+    background-color: #f1f2f6;
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DateInput {
+    opacity: 0;
+    position: absolute;
+}
+
+.DateInput::-webkit-calendar-picker-indicator {
+    position: absolute;
+    width: 20vw;
+}
+
+.ArrivalDateContainer,
+.LeavingDateContainer {
+    width: 37.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.ArrivalDateContainer .fa-calendar,
+.LeavingDateContainer .fa-calendar {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    color: #a1a9c3;
+}
+
+.ArrivalDateContainer .dateLabel,
+.LeavingDateContainer .dateLabel {
+    margin-left: 0.6rem;
+}
+
+.ArrivalDateContainer .dateLabel .addReturn,
+.LeavingDateContainer .dateLabel .addReturn {
+    color: #a1a9c3;
+}
+
+.ArrivalDateContainer {
+    border-right: solid 1px lightgrey;
+}
+
+.LeavingDateContainer {
+    justify-content: flex-end;
+}
+
+#returnDateLabel {
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .DateContainer {
+        margin: 0 0.2rem;
+        border-radius: 0.5rem;
+    }
+
+    .ArrivalDateContainer,
+    .LeavingDateContainer {
+        width: 10.5vw;
+    }
+
+    .ArrivalDateContainer .dateLabel,
+    .LeavingDateContainer .dateLabel {
+        font-size: 0.8rem;
+    }
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 8vw;
+    height: 1.5vh;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch input:checked+.slider {
+    background-color: #2196F3;
+}
+
+.switch input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.switch input:checked+.slider:before {
+    -webkit-transform: translateX(2vw);
+    -ms-transform: translateX(2vw);
+    transform: translateX(2vw);
+}
+
+.switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 1vh;
+    width: 4vw;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.switch .slider.round {
+    border-radius: 34px;
+}
+
+.switch .slider.round:before {
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .switch {
+        width: 2vw;
+        height: 100%;
+    }
+
+    .switch input:checked+.slider:before {
+        -webkit-transform: translateX(1vw);
+        -ms-transform: translateX(1vw);
+        transform: translateX(1vw);
+    }
+
+    .switch .slider:before {
+        width: 30%;
+        height: 60%;
+    }
+
+    .switch .slider.round {
+        border-radius: 34px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .switch {
+        width: 3vw;
+        height: 100%;
+    }
+
+    .switch input:checked+.slider:before {
+        -webkit-transform: translateX(1.2vw);
+        -ms-transform: translateX(1.2vw);
+        transform: translateX(1.2vw);
+    }
+
+    .switch .slider:before {
+        height: 50%;
+    }
+}
+
+.Navbar-Container {
+    width: 85vw;
+    height: 17vh;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(19, 41, 104, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+}
+
+@media screen and (min-width: 768px) {
+    .Navbar-Container {
+        height: 12%;
+        width: 80vw;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .Navbar-Container {
+        height: 8%;
+    }
+}
+
+
+
+.TopContainer {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.AccomodationContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 78vw;
+    padding: 0.5rem;
+}
+
+.AccomodationContainer .accomodationLabel {
+    padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .AccomodationContainer {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .SearchForm {
+        display: flex;
+        flex-direction: row;
+    }
+}
